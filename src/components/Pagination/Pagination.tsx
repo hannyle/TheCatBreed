@@ -1,6 +1,6 @@
 import React from "react";
 import "./Pagination.css";
-import { PaginationType } from "../../dataTypes";
+import { PaginationType } from "../../utils/dataTypes";
 import Button from "../Button/Button";
 
 interface InputProps {

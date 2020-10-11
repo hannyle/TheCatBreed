@@ -1,6 +1,6 @@
 import React from "react";
 import "./SelectedCatDetail.css";
-import { CatType } from "../../dataTypes";
+import { CatType } from "../../utils/dataTypes";
 import { getCatData } from "../../utils/utils";
 import Picture from "../Picture/Picture";
 import Info from "../Info/Info";

@@ -1,9 +1,9 @@
 import React from "react";
 import "./CatDetail.css";
 import styled from "styled-components";
-import { CatType } from "../../dataTypes";
+import { CatType } from "../../utils/dataTypes";
 import { getCatData } from "../../utils/utils";
-import { device } from "../../deviceSize";
+import { device } from "../../utils/deviceSize";
 import Info from "../Info/Info";
 
 interface InputProps {
