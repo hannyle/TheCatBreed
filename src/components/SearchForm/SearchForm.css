@@ -1,0 +1,10 @@
+input {
+  padding: var(--padding);
+  outline: 0;
+  border: 0.1rem solid var(--lightBrown);
+}
+
+input:focus {
+  outline: 0;
+  border: 0.1rem solid var(--darkBrown);
+}

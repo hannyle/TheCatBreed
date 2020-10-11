@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectedCatDetail {
+  margin-bottom: 1%;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1%;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 150px;
+}
